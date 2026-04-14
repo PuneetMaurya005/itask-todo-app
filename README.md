@@ -1,16 +1,51 @@
-# React + Vite
+# ✅ iTask - Your Task Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal task planner web app where you can add, 
+complete and delete your daily tasks — all saved in local storage 
+so your tasks stay even after refreshing!
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+<!-- Add your deployment link here -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Add new tasks instantly
+- Mark tasks as completed
+- Delete tasks
+- Data saved in Local Storage
+- Clean responsive UI
 
-## React Compiler
+## 🛠️ Built With
+- React 19
+- Vite
+- Tailwind CSS
+- React Icons
+- UUID
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Run Locally
+1. Clone the repo
+git clone https://github.com/PuneetMaurya005/itask-todo-app.git
 
-## Expanding the ESLint configuration
+2. Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Start development server
+npm run dev
+
+4. Open in browser
+http://localhost:5173
+
+## 📁 Project Structure
+itask-todo-app/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+
+## ⚠️ Note
+node_modules is not included.
+Run npm install to generate it locally.
