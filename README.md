@@ -32,7 +32,7 @@ npm install
 npm run dev
 
 4. Open in browser
-http://localhost:5173
+[http://localhost:5173](https://itask-todo-app-ten.vercel.app/)
 
 ## 📁 Project Structure
 itask-todo-app/
